@@ -46,9 +46,6 @@
     socket.on("connect", () => {
       // emiting to everybody
       socket.emit("message", "user connected");
-
-      const status = document.getElementById('status');
-      status.textContent = "user connected";
     })
 
     socket.on("chat message", (msg) => {
