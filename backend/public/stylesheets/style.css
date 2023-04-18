@@ -1,8 +1,22 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-right: 50px;
 }
 
-a {
-  color: #00B7FF;
+#chat {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#chat li {
+  padding: 5px 10px;
+}
+
+#chat li:nth-child(odd) {
+  background-color: #eee;
 }
